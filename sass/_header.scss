@@ -1,0 +1,31 @@
+header{
+    background-color: $cor1;
+    height: 19.7vh;
+    width: auto;
+    color: $corFonte;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    ul{
+        width: 40vw;
+        padding-right: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size:18px;
+    }
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+    nav ul li a:hover{
+        color:red;
+        text-decoration: underline;
+    }
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size:18px
+}

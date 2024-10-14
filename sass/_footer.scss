@@ -1,0 +1,25 @@
+footer{
+    height: 23.8vh;
+    background-color: $cor1;
+    display: flex;
+    width: auto;
+    align-items: center;
+    justify-content:space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    img{
+        width: 67px;
+        height: 67px;
+    }
+    .info{
+        color: $corFonte;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .simbolo{
+            width: 109px;
+            height: 105px;
+    }
+
+}
